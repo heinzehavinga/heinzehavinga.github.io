@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+body{
+    background:#F0EFF0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+}
+
+.socials a{color:black; font-size: 1.1em;}
+.socials a:hover{text-decoration:underline;}
+
+a{color:black;}
+
+h1{
+    size: 1.3em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width:600px;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 620px) {
+    main{
+        min-width:300px;
+        max-width:95%;
+    } 
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+    padding:15px;
+    margin: 20px 0;
+    border-radius: 10px; 
+}
+
+.imgHolder{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.round{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+}
+
+
+.socials{
+    width:100%;
+    margin-top:25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hakr{
+    background: rgb(242,174,48);
+    background-image: linear-gradient(90deg, rgb(242 174 48) 36%, rgb(242 195 53 / 30%) 100%),  url('../img/print.jpg');
+    background-position: center;
+}
+
+
+
+.semicoop{
+    background: rgb(242,174,48);
+    background-image: linear-gradient(90deg, rgb(242 174 48) 36%, rgb(242 195 53 / 30%) 100%), url('../img/comic.jpg');
+    background-position: center;
+
+}
+.shadow{
+    box-shadow: 1px 1px 5px rgb(122 122 122 / 70%);
+}
+
+.font600{
+    font-weight: 700;
+    font-size:0.9em;
+    margin-bottom: 10px;
+}
+
+.alignCenter{text-align: center;}
+.noMargin{margin:0;}
